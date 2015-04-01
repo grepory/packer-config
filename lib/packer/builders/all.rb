@@ -1,5 +1,6 @@
 # Encoding: utf-8
 require 'packer/builders/amazon'
+require 'packer/builders/digitalocean'
 require 'packer/builders/docker'
 require 'packer/builders/virtualbox'
 require 'packer/builders/vmware_vmx'

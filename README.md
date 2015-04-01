@@ -4,7 +4,7 @@
 
 [![Build Status](https://travis-ci.org/ianchesal/packer-config.svg?branch=master)](https://travis-ci.org/ianchesal/packer-config)
 
-A Ruby model that lets you build [Packer](http://packer.io) configurations in Ruby.
+A Ruby model that lets you build [Packer](https://packer.io) configurations in Ruby.
 
 Building the Packer JSON configurations in raw JSON can be quite an adventure.
 There's limited facilities for variable expansion and absolutely no support for
@@ -25,18 +25,20 @@ Bonus: you can really go to town with templates when it's all done it Ruby.
 
 The following [Packer builders](http://www.packer.io/docs/templates/builders.html) are currently implemented:
 
-* [amazon-ebs](http://www.packer.io/docs/builders/amazon-ebs.html)
-* [amazon-instance](http://www.packer.io/docs/builders/amazon-instance.html)
-* [docker](http://www.packer.io/docs/builders/docker.html)
-* [virtualbox-iso](http://www.packer.io/docs/builders/virtualbox-iso.html)
+* [amazon-ebs](https://www.packer.io/docs/builders/amazon-ebs.html)
+* [amazon-instance](https://www.packer.io/docs/builders/amazon-instance.html)
+* [digitalocean](https://www.packer.io/docs/builders/digitalocean.html)
+* [docker](https://www.packer.io/docs/builders/docker.html)
+* [virtualbox-iso](https://www.packer.io/docs/builders/virtualbox-iso.html)
+* [vmware-vmx](https://www.packer.io/docs/builders/vmware-vmx.html)
 * [null](https://www.packer.io/docs/builders/null.html)
 
 ### Provisioners
 
-The following [Packer provisioners](http://www.packer.io/docs/templates/provisioners.html) are currently implemented:
+The following [Packer provisioners](https://www.packer.io/docs/templates/provisioners.html) are currently implemented:
 
-* [file](http://www.packer.io/docs/provisioners/file.html)
-* [shell](http://www.packer.io/docs/provisioners/shell.html)
+* [file](https://www.packer.io/docs/provisioners/file.html)
+* [shell](https://www.packer.io/docs/provisioners/shell.html)
 * [ansible](https://www.packer.io/docs/provisioners/ansible-local.html)
 * [chef-client](https://www.packer.io/docs/provisioners/chef-client.html)
 * [chef-solo](https://www.packer.io/docs/provisioners/chef-solo.html)
@@ -48,9 +50,9 @@ The following [Packer provisioners](http://www.packer.io/docs/templates/provisio
 
 The following [Packer post-processors](http://www.packer.io/docs/templates/post-processors.html) are currently implemented:
 
-* [docker-import](http://www.packer.io/docs/post-processors/docker-import.html)
-* [docker-push](http://www.packer.io/docs/post-processors/docker-push.html)
-* [vagrant](http://www.packer.io/docs/post-processors/vagrant.html)
+* [docker-import](https://www.packer.io/docs/post-processors/docker-import.html)
+* [docker-push](https://www.packer.io/docs/post-processors/docker-push.html)
+* [vagrant](https://www.packer.io/docs/post-processors/vagrant.html)
 
 ## Examples
 

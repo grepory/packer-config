@@ -5,6 +5,7 @@ module Packer
   class Builder < DataObject
     AMAZON_EBS      = 'amazon-ebs'
     AMAZON_INSTANCE = 'amazon-instance'
+    DIGITALOCEAN    = 'digitalocean'
     DOCKER          = 'docker'
     VIRTUALBOX_ISO  = 'virtualbox-iso'
     VMWARE_VMX      = 'vmware-vmx'
@@ -13,6 +14,7 @@ module Packer
     VALID_BUILDER_TYPES = [
       AMAZON_EBS,
       AMAZON_INSTANCE,
+      DIGITALOCEAN,
       DOCKER,
       VIRTUALBOX_ISO,
       VMWARE_VMX,
@@ -29,6 +31,7 @@ module Packer
       {
         AMAZON_EBS      => Packer::Builder::Amazon::EBS,
         AMAZON_INSTANCE => Packer::Builder::Amazon::Instance,
+        DIGITALOCEAN    => Packer::Builder::DigitalOcean,
         DOCKER          => Packer::Builder::Docker,
         VIRTUALBOX_ISO  => Packer::Builder::VirtualBoxISO,
         VMWARE_VMX      => Packer::Builder::VMWareVMX,
